@@ -30,4 +30,26 @@ This project demonstrates clean architecture, reusable components, and industry-
 ---
 
 ## 📂 Project Structure
+src/
+├── components/ # Reusable UI components
+├── data/ # Static/mock data
+├── navigation/ # App navigation setup
+├── screens/ # App screens
+├── styles/ # Theme & global styles
+assets/ # Images & icons
+App.js
+app.json
+eas.json
 
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Node.js (16+)
+- npm or yarn
+- Expo CLI
+
+Install Expo CLI:
+```bash
+npm install -g expo eas-cli
